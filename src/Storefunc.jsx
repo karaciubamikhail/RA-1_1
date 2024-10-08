@@ -12,7 +12,7 @@ function storefunc ({brand, title, description, descriptionFull, price, currency
             <div className="highlight-window mobile"><div className="highlight-overlay"></div></div>
             <div className="divider"></div>
             <div className="purchase-info">
-                <div className="price">{price}{currency}</div>
+                <div className="price">{currency}{price}</div>
             <button>Добавить в корзину</button>
             </div>
         </div>
